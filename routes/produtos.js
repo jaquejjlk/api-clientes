@@ -122,4 +122,4 @@ None
 detalhes: error.message });
  }
 });
-module.exports = rout
+module.exports = router;
