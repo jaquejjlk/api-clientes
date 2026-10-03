@@ -60,22 +60,16 @@ RESTRICT
 );
 
 INSERT INTO clientes (nome, email, telefone)
-VALUES ('Jaqueline Fanton', 'jaqueline_fanton@estudante.sesisenai.org.br', '4790000-0000');
+VALUES ('Jaqueline Fanton', 'jaquelinefanton2@gmail.com', '47900000000');
 
 INSERT INTO produtos (nome, descricao, preco, estoque)
-VALUES ('Camisa', 'Camisa azul SAEP', 00.00, 1);
+VALUES ('Camisa', 'Camisa azul SAEP', 0, 1);
 
 INSERT INTO usuarios (nome, email, senha, perfil)
-VALUES ('Estudante', 'jaqueline_fanton@estudante.sesisenai.org.br', '123456', 'estudante');
+VALUES ('Adriano Lucas', 'adriano.lucas@edu.sc.senai.br', '123456', 'professor');
 
 DESC clientes;
 DESC produtos;
 DESC usuarios;
 DESC pedidos;
 DESC itens_pedido;
-
-SELECT * FROM clientes;
-SELECT * FROM produtos;
-SELECT * FROM usuarios;
-SELECT * FROM pedidos;
-SELECT * FROM itens_pedido;
