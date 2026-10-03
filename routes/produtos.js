@@ -114,7 +114,6 @@ router.delete('/:id', async (req, res) => {
  if (result.affectedRows === 0) {
  return res.status(404).json({ mensagem: 'Produto não encontrado.' });
  }
-None
  res.status(200).json({ mensagem: 'Produto removido com sucesso.'
 });
  } catch (error) {

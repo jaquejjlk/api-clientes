@@ -68,6 +68,7 @@ VALUES ('Camisa', 'Camisa azul SAEP', 0, 1);
 INSERT INTO usuarios (nome, email, senha, perfil)
 VALUES ('Adriano Lucas', 'adriano.lucas@edu.sc.senai.br', '123456', 'professor');
 
+
 DESC clientes;
 DESC produtos;
 DESC usuarios;

@@ -2,7 +2,5 @@
 
 # Sistema de Gestão de Vendas
 
-## Instalação
-
-```bash
 npm install
+npm run dev
